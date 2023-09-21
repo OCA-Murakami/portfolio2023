@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Systeam">
+      <UniqueIdentifier>{65b35c8e-76b3-4f07-9a9c-953052c9c8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7f2b4b17-cfc2-4828-818e-318d34c5d5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class">
+      <UniqueIdentifier>{09400dc0-c6d3-4c46-b1f0-61cc6bef42ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Base">
+      <UniqueIdentifier>{b939e640-e8ec-4612-b876-b653317aff32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systeam\Class">
+      <UniqueIdentifier>{90a5c387-4081-4d97-a5d0-0e5716f1e01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{91aa98c7-a306-45a1-8a16-ca82d2b553c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systeam\FileLoader">
+      <UniqueIdentifier>{0d6e9095-148b-4400-9240-724a994f9bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Variation">
+      <UniqueIdentifier>{528504e4-b6f7-419f-95d5-99d414a180a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\System\WinMain.cpp">
+      <Filter>Systeam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Class\CharacterBase.cpp">
+      <Filter>Game\Class\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Class\Boss.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Class\Camera.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Class\Player.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Class\Stage.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Hit.cpp">
+      <Filter>Systeam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Effect.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Random.cpp">
+      <Filter>Systeam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Animation.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_demo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_draw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_tables.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui\imgui_widgets.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\3DGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Editor.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Vector3.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Input.cpp">
+      <Filter>Systeam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\FileLoader\CsvLoading.cpp">
+      <Filter>Systeam\FileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Model.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\FileLoader\FileStream.cpp">
+      <Filter>Systeam\FileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Class\Tutorial.cpp">
+      <Filter>Systeam\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\System\Cast.h">
+      <Filter>Systeam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\WinMain.h">
+      <Filter>Systeam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Class\CharacterBase.h">
+      <Filter>Game\Class\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Class\Boss.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Class\Camera.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Class\Player.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Class\Stage.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Effect.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Random.h">
+      <Filter>Systeam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Animation.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imconfig.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imgui.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imgui_internal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imstb_rectpack.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imstb_textedit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui\imstb_truetype.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\3DGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\BossStatus.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Hit.h">
+      <Filter>Systeam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Editor.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Vector3.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Input.h">
+      <Filter>Systeam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\FileLoader\CsvLoading.h">
+      <Filter>Systeam\FileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\dxlib_ps.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\dxlib_vs.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\dxlib_vs_model.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Model.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\FileLoader\FileStream.h">
+      <Filter>Systeam\FileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Class\Tutorial.h">
+      <Filter>Systeam\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\Shader\ps_model.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\vs_model.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_0.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_1.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_2.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_3.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_4.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_5.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_6.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\variation\vs_model_7.fx">
+      <Filter>Shader\Variation</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
